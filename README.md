@@ -1,6 +1,6 @@
 # npmtest-react-notification
 
-#### test coverage for  [react-notification (v6.6.1)](https://github.com/pburtchaell/react-notification)  [![npm package](https://img.shields.io/npm/v/npmtest-react-notification.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-notification) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-notification.svg)](https://travis-ci.org/npmtest/node-npmtest-react-notification)
+#### basic test coverage for  [react-notification (v6.6.1)](https://github.com/pburtchaell/react-notification)  [![npm package](https://img.shields.io/npm/v/npmtest-react-notification.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-notification) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-notification.svg)](https://travis-ci.org/npmtest/node-npmtest-react-notification)
 
 #### Snackbar style notification component for React
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-notification/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-react-notification/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-notification/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-notification/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-notification/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-notification/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-react-notification/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-react-notification/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-notification/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-notification/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-react-notification/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-notification/build/coverage.html/index.html)
 
@@ -130,7 +130,8 @@
         "start": "node examples/server.js",
         "test": "./bin/test.sh"
     },
-    "version": "6.6.1"
+    "version": "6.6.1",
+    "bin": {}
 }
 ```
 
